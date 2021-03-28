@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="studio_ghibli.css">
+        <title>Studio Ghibli</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Studio Ghibli Information</h1>
+            <div class="dropdown">
+                <form action="">
+                    <label for="topic">Select Topic</label>
+                    <select name="topic" id="topic">
+                        <option value="films">Films</option>
+                        <option value="people">People</option>
+                        <option value="vehicles">Vehicles</option>
+                    </select>
+                </form>
+            </div>
+            <div id="data"></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="studio_ghibli.js"></script>
+    </body>
+</html>
