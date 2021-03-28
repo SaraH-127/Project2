@@ -1,0 +1,14 @@
+body {
+    background-color: lightskyblue;
+}
+.container {
+    text-align: center;
+}
+#data {
+    width: 50%;
+    margin-left: 21em;
+}
+#topic {
+    background-color: lightblue;
+    border-radius: 10px;
+}
